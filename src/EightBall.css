@@ -1,0 +1,13 @@
+.glare::after {
+  content: "";
+  position: absolute;
+  bottom: 240px;
+  right: 160px;
+  width: 140px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.827);
+  transform: rotate(100deg);
+  opacity: 0.99;
+  filter: blur(40px);
+  z-index: 2;
+}

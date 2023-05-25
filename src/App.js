@@ -1,9 +1,10 @@
 import EightBall from "./EightBall";
+import EightBallData from "./ballData";
 
 function App() {
   return (
     <>
-      <EightBall />
+      <EightBall answers={EightBallData} />
     </>
   );
 }
